@@ -57,7 +57,7 @@ function timer() {
         }
     },1000);
 }
-
+//funcao ao clicar nas opcoes 
 function clickAnswer(e) {
     clearTimer(interval);
     let clickOption = parseInt(e.target.getAttribute('data-op'));
@@ -68,7 +68,7 @@ function clickAnswer(e) {
     currentQuestion++;
     showQuestions();
 }
-
+//funcao para de limpar e iniciar timer novamente
 function clearTimer(interval) {
     clearInterval(interval);
     timer();
@@ -80,7 +80,7 @@ function progress() {
     document.querySelector('.bar--progress').style.width = `${pct}%`; 
 }
 
-
+//funcao ao finalizar de responder
 function finsh() {
     document.querySelector('.bar--progress').style.width = `100%`
     document.querySelector('.home').style.display = 'none';
@@ -106,7 +106,7 @@ function finsh() {
      }
 }
 
-
+//funcao para resetar do comeco
 function reset() {
     currentQuestion = 0;
     correctAnswer = 0;
