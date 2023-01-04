@@ -10,6 +10,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* Barra de progresso */
 
 .area-progress {
     width: 100vw;
@@ -23,6 +24,8 @@ body {
     position: fixed;
     top: 0;
 }
+
+/* Tela inicial */
 
 .home {
     display: block;
@@ -76,17 +79,7 @@ body {
     cursor: pointer;
 }
 
-.footer {
-    color: #fff;
-    font-size: 20px;
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 40px;
-}
-
-
-
-
+/* Tela primcipal do quiz */
 .quiz {
     display: none;
 }
@@ -183,6 +176,7 @@ body {
 
 
 
+/* Tela final */
 
 .score {
     display: none;
@@ -234,4 +228,12 @@ body {
     cursor: pointer;
 }
 
+
+.footer {
+    color: #fff;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 40px;
+}
 
